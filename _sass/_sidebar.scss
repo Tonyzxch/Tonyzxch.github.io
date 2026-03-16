@@ -316,7 +316,7 @@
 
 .wechat-qr-modal__id {
   margin: 0.85rem 0 0;
-  color: $muted-text-color;
+  color: mix(#fff, $gray, 25%);
   font-size: $type-size-6;
 }
 
@@ -324,7 +324,7 @@
   position: absolute;
   top: 0.5rem;
   right: 0.8rem;
-  color: $muted-text-color;
+  color: $gray;
   font-size: 1.6rem;
   line-height: 1;
   text-decoration: none;
