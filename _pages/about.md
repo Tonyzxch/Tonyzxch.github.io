@@ -3,56 +3,134 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hi, I am **Xucheng Zhuang**, an undergraduate student majoring in **Software Engineering** at the **College of Software, Sichuan University**. My research interests lie in **large language models**, with a particular focus on **LLM security**, **adversarial attacks**, **AI safety**, and **multimodal models**.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am currently building a research profile around the security risks of large language models, especially jailbreak attacks, adversarial prompt optimization, and evaluation across models. Alongside research, I also work on practical engineering projects to strengthen my implementation and system design skills.
 
+I completed the **Summer Exchange Program at the National University of Singapore (NUS)** in July 2025. I am broadly interested in future research opportunities in AI and hope to continue toward graduate-level research in the areas above.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='news'></span>
 
-# 📝 Publications 
+# News
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- *2025.12*: Awarded the **National Scholarship** for the second consecutive year.
+- *2025.07*: Completed the Summer Exchange / Research Program at the **National University of Singapore (NUS)**.
+- *2025.04*: Received the **Meritorious Winner** award in the **MCM/ICM**.
+- *2024.12*: Received my first **National Scholarship**.
+- *2023.04*: Transferred to **Software Engineering** at **Sichuan University**, where I began to focus more seriously on AI-related research.
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<span class='anchor' id='research'></span>
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+# Research Experience
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+## Jailbreak Attacks on Large Language Models
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+**Role:** Project Leader  
+**Period:** Oct 2024 - Sep 2025  
+**Project Type:** University-Level Undergraduate Innovation Project
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+This project studies security risks and adversarial vulnerabilities in large language models. I conducted a focused literature review on jailbreak attacks and defense strategies, then evaluated mainstream models under a range of prompt-based attack settings.
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+To improve attack efficiency and transferability, I further designed a reinforcement-learning-based prompt optimization framework for generating stronger adversarial prompts.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+**Current outcomes:** Survey manuscript in progress; one invention patent under review.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+## Scenario-Controlled Image Generation for Animal Recognition
+
+**Role:** Core Team Member  
+**Period:** Oct 2024 - Sep 2025  
+**Project Type:** National-Level Undergraduate Innovation Project
+
+This project explores controllable image generation methods and how synthetic data can improve animal recognition performance. I participated in the design of generation pipelines under scenario constraints and helped evaluate their usefulness for downstream recognition tasks.
+
+<span class='anchor' id='projects'></span>
+
+# Selected Projects
+
+## FlightRadar Data Scraper
+
+**Tech Stack:** Python, Web Scraping, Data Collection, Automation
+
+A web scraping project for collecting and processing flight-related data from FlightRadar. This project demonstrates my interest in practical data acquisition, automation workflows, and building datasets for downstream analysis.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/FlightRadar)
+
+## Warehouse Management System
+
+**Tech Stack:** Java, Backend, System Design
+
+A warehouse management system for inventory tracking, stock-in/stock-out operations, and core business workflow management. This project demonstrates my ability to design and implement a complete backend-oriented system.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/jxc-management-system)
+
+## Book Management System
+
+**Tech Stack:** Java, Database, Backend Development
+
+A book management system designed for basic library-style information management, including book records, borrowing operations, and user-oriented data handling. This project reflects my experience in building structured information systems with database support.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/Book-System)
+
+## Chinese Sentiment Analysis
+
+**Tech Stack:** Python, NLP, Machine Learning, Jupyter
+
+A Chinese text sentiment classification project exploring machine learning methods for natural language processing tasks. This project connects coursework knowledge with practical experimentation in NLP.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/nlp_sentiment_analysis)
+
+<span class='anchor' id='honors-and-awards'></span>
+
+# Honors and Awards
+
+## 2025
+
+- National Scholarship
+- Outstanding Student of Sichuan University
+- MCM/ICM - Meritorious Winner
+- Huawei ICT Competition, Ascend AI Track - Provincial Second Prize
+- National College Student Mathematical Contest in Modeling - Provincial Second Prize
+
+## 2024
+
+- National Scholarship
+- Outstanding Student of Sichuan University
+- National English Competition for College Students - Third Prize
+- Chinese College Computer Design Competition (Sichuan Division) - Provincial Third Prize
+
+## 2023
+
+- Sichuan University Comprehensive First-Class Scholarship
+- Outstanding Student of Sichuan University
+- Chinese Mathematics Competitions for College Students - Provincial Second Prize
+
+## Certificates
+
+- CET-4: 656
+- CET-6: 636
+- Outstanding League Member
+- Outstanding Volunteer
+
+<span class='anchor' id='education'></span>
+
+# Education
+
+- *2025.06 - 2025.07*, **National University of Singapore**, Summer Exchange Program.
+- *2023.09 - Present*, **Sichuan University, College of Software**, B.E. in Software Engineering.
+- *2022.09 - 2023.09*, **Sichuan University, School of Mechanical Engineering**, Intelligent Manufacturing.
+
+<span class='anchor' id='contact'></span>
+
+# Contact
+
+- Email: [1771418410@qq.com](mailto:1771418410@qq.com)
+- GitHub: [Tonyzxch](https://github.com/Tonyzxch)
+- WeChat: `Zxc-660223`
+- CV: [Download PDF](/files/cv.pdf)
