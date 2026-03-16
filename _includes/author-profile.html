@@ -37,11 +37,11 @@
       {% if author.wechat %}
         <li>
           {% if author.wechat_qr %}
-            <a href="#wechat-qr-modal">
-              <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat: {{ author.wechat }}
+            <a href="{{ author.wechat_qr }}" onclick="document.getElementById('wechat-qr-modal').classList.add('is-open'); return false;">
+              <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat
             </a>
           {% else %}
-            <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat: {{ author.wechat }}
+            <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat
           {% endif %}
         </li>
       {% endif %}
@@ -145,9 +145,9 @@
       {% endif %}
       {% if author.wechat %}
         {% if author.wechat_qr %}
-          <a href="#wechat-qr-modal" title="WeChat: {{ author.wechat }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
+          <a href="{{ author.wechat_qr }}" title="WeChat" onclick="document.getElementById('wechat-qr-modal').classList.add('is-open'); return false;"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
         {% else %}
-          <span title="WeChat: {{ author.wechat }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></span>
+          <span title="WeChat"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></span>
         {% endif %}
       {% endif %}
       {% if author.github %}
@@ -243,14 +243,11 @@
 
 {% if author.wechat_qr %}
   <div id="wechat-qr-modal" class="wechat-qr-modal" aria-hidden="true">
-    <a class="wechat-qr-modal__backdrop" href="#" aria-label="Close WeChat QR preview"></a>
+    <button class="wechat-qr-modal__backdrop" type="button" onclick="document.getElementById('wechat-qr-modal').classList.remove('is-open')" aria-label="Close WeChat QR preview"></button>
     <div class="wechat-qr-modal__card" role="dialog" aria-modal="true" aria-labelledby="wechat-qr-title">
-      <a class="wechat-qr-modal__close" href="#" aria-label="Close WeChat QR preview">&times;</a>
+      <button class="wechat-qr-modal__close" type="button" onclick="document.getElementById('wechat-qr-modal').classList.remove('is-open')" aria-label="Close WeChat QR preview">&times;</button>
       <p id="wechat-qr-title" class="wechat-qr-modal__title">WeChat</p>
       <img src="{{ author.wechat_qr }}" alt="WeChat QR code for {{ author.name }}">
-      {% if author.wechat %}
-        <p class="wechat-qr-modal__id">{{ author.wechat }}</p>
-      {% endif %}
     </div>
   </div>
 {% endif %}

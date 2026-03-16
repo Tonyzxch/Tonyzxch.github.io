@@ -279,13 +279,14 @@
   z-index: 30;
 }
 
-.wechat-qr-modal:target {
+.wechat-qr-modal.is-open {
   display: flex;
 }
 
 .wechat-qr-modal__backdrop {
   position: absolute;
   inset: 0;
+  border: 0;
   background: rgba(15, 23, 42, 0.45);
 }
 
@@ -314,18 +315,15 @@
   font-weight: 600;
 }
 
-.wechat-qr-modal__id {
-  margin: 0.85rem 0 0;
-  color: mix(#fff, $gray, 25%);
-  font-size: $type-size-6;
-}
-
 .wechat-qr-modal__close {
   position: absolute;
   top: 0.5rem;
   right: 0.8rem;
+  border: 0;
+  background: transparent;
   color: $gray;
   font-size: 1.6rem;
   line-height: 1;
   text-decoration: none;
+  cursor: pointer;
 }
