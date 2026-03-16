@@ -37,9 +37,9 @@
       {% if author.wechat %}
         <li>
           {% if author.wechat_qr %}
-            <a href="{{ author.wechat_qr }}" onclick="document.getElementById('wechat-qr-modal').classList.add('is-open'); return false;">
+            <button class="author__action author__action--wechat" type="button" onclick="document.getElementById('wechat-qr-modal').classList.add('is-open')">
               <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat
-            </a>
+            </button>
           {% else %}
             <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat
           {% endif %}
@@ -145,7 +145,7 @@
       {% endif %}
       {% if author.wechat %}
         {% if author.wechat_qr %}
-          <a href="{{ author.wechat_qr }}" title="WeChat" onclick="document.getElementById('wechat-qr-modal').classList.add('is-open'); return false;"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
+          <button class="author__action author__action--wechat-icon" type="button" title="WeChat" onclick="document.getElementById('wechat-qr-modal').classList.add('is-open')"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></button>
         {% else %}
           <span title="WeChat"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></span>
         {% endif %}
@@ -240,14 +240,3 @@
     </div>
   </div>
 </div>
-
-{% if author.wechat_qr %}
-  <div id="wechat-qr-modal" class="wechat-qr-modal" aria-hidden="true">
-    <button class="wechat-qr-modal__backdrop" type="button" onclick="document.getElementById('wechat-qr-modal').classList.remove('is-open')" aria-label="Close WeChat QR preview"></button>
-    <div class="wechat-qr-modal__card" role="dialog" aria-modal="true" aria-labelledby="wechat-qr-title">
-      <button class="wechat-qr-modal__close" type="button" onclick="document.getElementById('wechat-qr-modal').classList.remove('is-open')" aria-label="Close WeChat QR preview">&times;</button>
-      <p id="wechat-qr-title" class="wechat-qr-modal__title">WeChat</p>
-      <img src="{{ author.wechat_qr }}" alt="WeChat QR code for {{ author.name }}">
-    </div>
-  </div>
-{% endif %}

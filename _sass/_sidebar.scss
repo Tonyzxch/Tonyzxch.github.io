@@ -253,6 +253,23 @@
   }
 }
 
+.author__action {
+  display: block;
+  margin-bottom: 5px;
+  padding: 2px 5px 2px 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: $type-size-5;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .author__urls_sm{
   padding: .25em;
   font-size: 1.75em;
@@ -267,6 +284,11 @@
   @include breakpoint($large) {
     display: none;
   }
+}
+
+.author__action--wechat-icon {
+  padding: 0;
+  font-size: 1em;
 }
 
 .wechat-qr-modal {

@@ -1,0 +1,16 @@
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+{% if author.wechat_qr %}
+  <div id="wechat-qr-modal" class="wechat-qr-modal" aria-hidden="true">
+    <button class="wechat-qr-modal__backdrop" type="button" onclick="document.getElementById('wechat-qr-modal').classList.remove('is-open')" aria-label="Close WeChat QR preview"></button>
+    <div class="wechat-qr-modal__card" role="dialog" aria-modal="true" aria-labelledby="wechat-qr-title">
+      <button class="wechat-qr-modal__close" type="button" onclick="document.getElementById('wechat-qr-modal').classList.remove('is-open')" aria-label="Close WeChat QR preview">&times;</button>
+      <p id="wechat-qr-title" class="wechat-qr-modal__title">WeChat</p>
+      <img src="{{ author.wechat_qr }}" alt="WeChat QR code for {{ author.name }}">
+    </div>
+  </div>
+{% endif %}
