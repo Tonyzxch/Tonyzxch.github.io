@@ -255,6 +255,7 @@
 
 .author__action {
   display: block;
+  width: auto;
   margin-bottom: 5px;
   padding: 2px 5px 2px 0;
   border: 0;
@@ -267,6 +268,11 @@
 
   &:hover {
     text-decoration: underline;
+  }
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
   }
 }
 
@@ -289,6 +295,7 @@
 .author__action--wechat-icon {
   padding: 0;
   font-size: 1em;
+  width: auto;
 }
 
 .wechat-qr-modal {
