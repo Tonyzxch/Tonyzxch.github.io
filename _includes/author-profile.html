@@ -28,14 +28,22 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
-      {% if author.wechat %}
-        <li><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat: {{ author.wechat }}</li>
-      {% endif %}
       {% if author.cv %}
         <li><a href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      {% endif %}
+      {% if author.wechat %}
+        <li>
+          {% if author.wechat_qr %}
+            <a href="#wechat-qr-modal">
+              <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat: {{ author.wechat }}
+            </a>
+          {% else %}
+            <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat: {{ author.wechat }}
+          {% endif %}
+        </li>
       {% endif %}
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
@@ -129,14 +137,18 @@
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
-      {% if author.wechat %}
-        <span title="WeChat: {{ author.wechat }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></span>
-      {% endif %}
       {% if author.cv %}
         <a href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.wechat %}
+        {% if author.wechat_qr %}
+          <a href="#wechat-qr-modal" title="WeChat: {{ author.wechat }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
+        {% else %}
+          <span title="WeChat: {{ author.wechat }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></span>
+        {% endif %}
       {% endif %}
       {% if author.github %}
         <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
@@ -228,3 +240,17 @@
     </div>
   </div>
 </div>
+
+{% if author.wechat_qr %}
+  <div id="wechat-qr-modal" class="wechat-qr-modal" aria-hidden="true">
+    <a class="wechat-qr-modal__backdrop" href="#" aria-label="Close WeChat QR preview"></a>
+    <div class="wechat-qr-modal__card" role="dialog" aria-modal="true" aria-labelledby="wechat-qr-title">
+      <a class="wechat-qr-modal__close" href="#" aria-label="Close WeChat QR preview">&times;</a>
+      <p id="wechat-qr-title" class="wechat-qr-modal__title">WeChat</p>
+      <img src="{{ author.wechat_qr }}" alt="WeChat QR code for {{ author.name }}">
+      {% if author.wechat %}
+        <p class="wechat-qr-modal__id">{{ author.wechat }}</p>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

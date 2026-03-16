@@ -268,3 +268,64 @@
     display: none;
   }
 }
+
+.wechat-qr-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  z-index: 30;
+}
+
+.wechat-qr-modal:target {
+  display: flex;
+}
+
+.wechat-qr-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+}
+
+.wechat-qr-modal__card {
+  position: relative;
+  width: min(320px, calc(100vw - 2rem));
+  padding: 1.25rem 1.25rem 1rem;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.22);
+  text-align: center;
+  z-index: 1;
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+}
+
+.wechat-qr-modal__title {
+  margin: 0 0 0.75rem;
+  font-size: $type-size-5;
+  font-weight: 600;
+}
+
+.wechat-qr-modal__id {
+  margin: 0.85rem 0 0;
+  color: $muted-text-color;
+  font-size: $type-size-6;
+}
+
+.wechat-qr-modal__close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.8rem;
+  color: $muted-text-color;
+  font-size: 1.6rem;
+  line-height: 1;
+  text-decoration: none;
+}
