@@ -37,9 +37,9 @@
       {% if author.wechat %}
         <li>
           {% if author.wechat_qr %}
-            <button class="author__action author__action--wechat" type="button" onclick="document.getElementById('wechat-qr-modal').classList.add('is-open')">
+            <a href="#" class="author__action-link" onclick="document.getElementById('wechat-qr-modal').classList.add('is-open'); return false;">
               <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat
-            </button>
+            </a>
           {% else %}
             <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat
           {% endif %}
@@ -145,7 +145,7 @@
       {% endif %}
       {% if author.wechat %}
         {% if author.wechat_qr %}
-          <button class="author__action author__action--wechat-icon" type="button" title="WeChat" onclick="document.getElementById('wechat-qr-modal').classList.add('is-open')"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></button>
+          <a href="#" class="author__action-link author__action-link--icon" title="WeChat" onclick="document.getElementById('wechat-qr-modal').classList.add('is-open'); return false;"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
         {% else %}
           <span title="WeChat"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></span>
         {% endif %}

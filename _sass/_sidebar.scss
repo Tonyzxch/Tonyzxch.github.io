@@ -253,26 +253,19 @@
   }
 }
 
-.author__urls-wrapper button.author__action {
+.author__action-link {
   display: block;
   width: auto;
   margin-bottom: 5px;
   padding: 2px 5px 2px 0;
-  border: 0;
-  background: transparent;
   color: inherit;
   font-family: inherit;
   font-size: $type-size-5;
   text-align: left;
-  cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     text-decoration: underline;
-  }
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
   }
 }
 
@@ -292,7 +285,8 @@
   }
 }
 
-.author__urls-wrapper button.author__action--wechat-icon {
+.author__action-link--icon {
+  display: inline-block;
   padding: 0;
   font-size: 1em;
   width: auto;
