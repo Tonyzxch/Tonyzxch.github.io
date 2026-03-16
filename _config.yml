@@ -1,6 +1,6 @@
 # Site Settings
 title                    : "Xucheng Zhuang"
-description              : "Undergraduate student at Sichuan University working on large language models, LLM security, and AI safety."
+description              : "Personal academic homepage of Xucheng Zhuang."
 repository               : "Tonyzxch/Tonyzxch.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -21,7 +21,9 @@ author:
   employer         : "Sichuan University"
   pubmed           :
   googlescholar    :
-  email            : "1771418410@qq.com"
+  email            : "scuzxc660223@gmail.com"
+  wechat           : "Zxc-660223"
+  cv               : "/files/cv.pdf"
   researchgate     :
   uri              :
   bitbucket        :
@@ -36,7 +38,7 @@ author:
   instagram        :
   impactstory      :
   lastfm           :
-  linkedin         :
+  linkedin         : "xucheng-zhuang-b1b66739a"
   dblp             :
   orcid            :
   pinterest        :
