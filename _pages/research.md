@@ -21,7 +21,7 @@ This project studies security risks and adversarial vulnerabilities in large lan
 
 To improve attack efficiency and transferability, I further designed a reinforcement-learning-based prompt optimization framework for generating stronger adversarial prompts.
 
-**Current outcomes:** Survey manuscript in progress; one invention patent under review.
+**Current outcomes:** Survey manuscript; one invention patent.
 
 ## Scenario-Controlled Image Generation for Animal Recognition
 

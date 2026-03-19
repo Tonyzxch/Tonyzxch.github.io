@@ -320,21 +320,21 @@
 }
 
 .greedy-nav--static {
-  .visible-links a,
+  .visible-links .masthead__menu-item:not(.masthead__menu-home-item) a,
   .hidden-links a,
   button {
     pointer-events: none;
     cursor: default;
   }
 
-  .visible-links a:before,
-  .visible-links a:hover:before {
+  .visible-links .masthead__menu-item:not(.masthead__menu-home-item) a:before,
+  .visible-links .masthead__menu-item:not(.masthead__menu-home-item) a:hover:before {
     -webkit-transform: scaleX(0);
         -ms-transform: scaleX(0);
             transform: scaleX(0);
   }
 
-  .visible-links a.is-active:before {
+  .visible-links .masthead__menu-item:not(.masthead__menu-home-item) a.is-active:before {
     -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
             transform: scaleX(1);

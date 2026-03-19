@@ -12,7 +12,7 @@ redirect_from:
 
 # 👋 About Me
 
-Hi, I am **Xucheng Zhuang**, an undergraduate student majoring in **Software Engineering** at the **College of Software, Sichuan University**.
+Hi, I am **Xucheng Zhuang**, an undergraduate student majoring in **Software Engineering** at the **College of Software Engineering, Sichuan University**.
 
 My current interests are in **large language models**, especially **reasoning**, **memory**, **multimodal models**, and **agent systems**.
 
@@ -23,7 +23,7 @@ Alongside research, I also work on practical engineering projects to strengthen 
 # 📰 News
 
 - *2025.12*: Awarded the **National Scholarship** for the second consecutive year.
-- *2025.07*: Completed the Summer Exchange / Research Program at the **National University of Singapore (NUS)**.
+- *2025.07*: Completed the SOC Summer Workshop at the **National University of Singapore (NUS)**.
 - *2025.04*: Received the **Meritorious Winner** award in the **MCM/ICM**.
 - *2024.12*: Received my first **National Scholarship**.
 - *2023.04*: Transferred to **Software Engineering** at **Sichuan University**, where I began to focus more seriously on AI-related research.
@@ -42,7 +42,7 @@ This project studies security risks and adversarial vulnerabilities in large lan
 
 To improve attack efficiency and transferability, I further designed a reinforcement-learning-based prompt optimization framework for generating stronger adversarial prompts.
 
-**Current outcomes:** Survey manuscript in progress; one invention patent under review.
+**Current outcomes:** Survey manuscript; one invention patent.
 
 ## Scenario-Controlled Image Generation for Animal Recognition
 
@@ -58,25 +58,17 @@ This project explores controllable image generation methods and how synthetic da
 
 # 🛠 Selected Projects
 
-## FlightRadar Data Scraper
+## CartoonGen
 
-**Tech Stack:** Python, Web Scraping, Data Collection, Automation
+**Tech Stack:** Python, TensorFlow, Keras, GANs, Image Generation
 
-A web scraping project for collecting and processing flight-related data from FlightRadar. This project demonstrates my interest in practical data acquisition, automation workflows, and building datasets for downstream analysis.
+A cartoon avatar generation project based on TensorFlow/Keras and the Google CartoonSet dataset. The project covers the full workflow of GAN-based image generation, including data preprocessing, generator and discriminator design, adversarial training, sample visualization, and inference. It demonstrates my interest in generative models and hands-on experimentation with image synthesis systems.
 
-**Link:** [GitHub Repository](https://github.com/Tonyzxch/FlightRadar)
-
-## Warehouse Management System
-
-**Tech Stack:** Java, Backend, System Design
-
-A warehouse management system for inventory tracking, stock-in/stock-out operations, and core business workflow management. This project demonstrates my ability to design and implement a complete backend-oriented system.
-
-**Link:** [GitHub Repository](https://github.com/Tonyzxch/jxc-management-system)
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/CartoonGen)
 
 ## Chinese Sentiment Analysis
 
-**Tech Stack:** Python, NLP, Machine Learning, Jupyter
+**Tech Stack:** Python, NLP, Machine Learning
 
 A Chinese text sentiment classification project exploring machine learning methods for natural language processing tasks. This project connects coursework knowledge with practical experimentation in NLP.
 
@@ -142,6 +134,6 @@ A learning-note repository based on Google's AI agents intensive course. It summ
 
 # 🎓 Education
 
-- *2025.06 - 2025.07*, **National University of Singapore**, Summer Exchange Program.
+- *2025.06 - 2025.07*, **National University of Singapore**, SOC Summer Workshop.
 - *2023.09 - Present*, **Sichuan University, College of Software Engineering**, B.E. in Software Engineering.
 - *2022.09 - 2023.09*, **Sichuan University, School of Mechanical Engineering**, Intelligent Manufacturing.
