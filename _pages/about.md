@@ -52,6 +52,8 @@ To improve attack efficiency and transferability, I further designed a reinforce
 
 This project explores controllable image generation methods and how synthetic data can improve animal recognition performance. I participated in the design of generation pipelines under scenario constraints and helped evaluate their usefulness for downstream recognition tasks.
 
+[More Research](/research/){: .btn .btn--inverse .btn--small }
+
 <span class='anchor' id='projects'></span>
 
 # 🛠 Selected Projects
@@ -79,6 +81,30 @@ A warehouse management system for inventory tracking, stock-in/stock-out operati
 A Chinese text sentiment classification project exploring machine learning methods for natural language processing tasks. This project connects coursework knowledge with practical experimentation in NLP.
 
 **Link:** [GitHub Repository](https://github.com/Tonyzxch/nlp_sentiment_analysis)
+
+[More Projects](/projects/){: .btn .btn--inverse .btn--small }
+
+<span class='anchor' id='study-notes'></span>
+
+# Study Notes
+
+## Document AI From OCR to Agentic Doc Extraction
+
+**Topic:** Document AI, OCR, Information Extraction, Agentic Systems
+
+A structured set of study notes on the evolution of document intelligence, covering the path from traditional OCR pipelines to agentic document extraction workflows. This note reflects my interest in how large models and agents can improve document understanding in real-world systems.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/Document-AI-From-OCR-to-Agentic-Doc-Extraction)
+
+## 5-Day AI Agents Intensive Course with Google
+
+**Topic:** AI Agents, LLM Applications, Agent Workflows
+
+A learning-note repository based on Google's AI agents intensive course. It summarizes key concepts, design patterns, and practical takeaways around building agent-based systems, and also serves as part of my broader self-study on LLM agents.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/5-Day-AI-Agents-Intensive-Course-with-Google)
+
+[More Study Notes](/study-notes/){: .btn .btn--inverse .btn--small }
 
 <span class='anchor' id='honors-and-awards'></span>
 
