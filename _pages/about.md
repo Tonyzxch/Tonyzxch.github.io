@@ -80,21 +80,21 @@ A Chinese text sentiment classification project exploring machine learning metho
 
 # 📚 Study Notes
 
+## LLM Learning Plan
+
+**Topic:** Large Language Models, Model Architecture, Training, Alignment, Inference Optimization, Agents
+
+A comprehensive self-study note repository for building a full-stack understanding of large language models, from mathematical foundations and core architectures to fine-tuning, RLHF, optimization, RAG, agents, and deployment. The project combines theory-oriented reading with hands-on notebook implementations.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/LLM-Learning-Plan)
+
 ## Document AI From OCR to Agentic Doc Extraction
 
-**Topic:** Document AI, OCR, Information Extraction, Agentic Systems
+**Topic:** OCR, Document AI, Agentic Document Extraction, RAG, AWS Pipelines
 
-A structured set of study notes on the evolution of document intelligence, covering the path from traditional OCR pipelines to agentic document extraction workflows. This note reflects my interest in how large models and agents can improve document understanding in real-world systems.
+A self-study note repository based on the DeepLearning.AI course on document intelligence, covering the path from OCR and document parsing to agentic document understanding, RAG over structured documents, and cloud-based automation pipelines. The project combines notebook-based experiments with practical pipeline design.
 
 **Link:** [GitHub Repository](https://github.com/Tonyzxch/Document-AI-From-OCR-to-Agentic-Doc-Extraction)
-
-## 5-Day AI Agents Intensive Course with Google
-
-**Topic:** AI Agents, LLM Applications, Agent Workflows
-
-A learning-note repository based on Google's AI agents intensive course. It summarizes key concepts, design patterns, and practical takeaways around building agent-based systems, and also serves as part of my broader self-study on LLM agents.
-
-**Link:** [GitHub Repository](https://github.com/Tonyzxch/5-Day-AI-Agents-Intensive-Course-with-Google)
 
 [More Study Notes](/study-notes/){: .btn .btn--inverse .btn--small .section-more-link }
 
