@@ -86,7 +86,7 @@ A Chinese text sentiment classification project exploring machine learning metho
 
 <span class='anchor' id='study-notes'></span>
 
-# Study Notes
+# 📚 Study Notes
 
 ## Document AI From OCR to Agentic Doc Extraction
 

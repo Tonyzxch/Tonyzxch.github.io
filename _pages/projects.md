@@ -7,7 +7,7 @@ author_profile: true
 nav_active: projects
 ---
 
-# Projects
+# 🛠 Projects
 
 This page collects selected engineering and applied AI projects. The homepage shows a concise subset, while this page is intended to grow as I continue building more systems and experiments.
 

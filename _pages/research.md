@@ -7,7 +7,7 @@ author_profile: true
 nav_active: research
 ---
 
-# Research
+# 🔬 Research
 
 This page collects my research experience and related work in more detail. The homepage highlights selected items, while this page serves as the longer-term archive for current and future research.
 

@@ -7,7 +7,7 @@ author_profile: true
 nav_active: study-notes
 ---
 
-# Study Notes
+# 📚 Study Notes
 
 This page gathers my self-study notes on large models, agents, and related AI systems topics. The homepage keeps a compact showcase, while this page is meant to expand as I continue reading and learning.
 

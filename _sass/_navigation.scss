@@ -319,6 +319,28 @@
   }
 }
 
+.greedy-nav--static {
+  .visible-links a,
+  .hidden-links a,
+  button {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .visible-links a:before,
+  .visible-links a:hover:before {
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+
+  .visible-links a.is-active:before {
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
 
 /*
    Navigation list
