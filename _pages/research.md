@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /research/
 title: "Research"
 excerpt: ""
@@ -29,3 +30,5 @@ To improve attack efficiency and transferability, I further designed a reinforce
 **Project Type:** National-Level Undergraduate Innovation Project
 
 This project explores controllable image generation methods and how synthetic data can improve animal recognition performance. I participated in the design of generation pipelines under scenario constraints and helped evaluate their usefulness for downstream recognition tasks.
+
+[Back to Homepage](/#research){: .btn .btn--inverse .btn--small .section-more-link }

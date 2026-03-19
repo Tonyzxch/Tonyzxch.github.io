@@ -10,14 +10,17 @@ main:
   - key: "research"
     title: "Research"
     url: "/research/"
+    home_url: "/#research"
 
   - key: "projects"
     title: "Projects"
     url: "/projects/"
+    home_url: "/#projects"
 
   - key: "study-notes"
     title: "Study Notes"
     url: "/study-notes/"
+    home_url: "/#study-notes"
 
   - key: "honors-and-awards"
     title: "Honors and Awards"

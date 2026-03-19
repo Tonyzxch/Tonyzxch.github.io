@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /projects/
 title: "Projects"
 excerpt: ""
@@ -33,3 +34,5 @@ A warehouse management system for inventory tracking, stock-in/stock-out operati
 A Chinese text sentiment classification project exploring machine learning methods for natural language processing tasks. This project connects coursework knowledge with practical experimentation in NLP.
 
 **Link:** [GitHub Repository](https://github.com/Tonyzxch/nlp_sentiment_analysis)
+
+[Back to Homepage](/#projects){: .btn .btn--inverse .btn--small .section-more-link }

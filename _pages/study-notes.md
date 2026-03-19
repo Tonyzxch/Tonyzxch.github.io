@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /study-notes/
 title: "Study Notes"
 excerpt: ""
@@ -25,3 +26,5 @@ A structured set of study notes on the evolution of document intelligence, cover
 A learning-note repository based on Google's AI agents intensive course. It summarizes key concepts, design patterns, and practical takeaways around building agent-based systems, and also serves as part of my broader self-study on LLM agents.
 
 **Link:** [GitHub Repository](https://github.com/Tonyzxch/5-Day-AI-Agents-Intensive-Course-with-Google)
+
+[Back to Homepage](/#study-notes){: .btn .btn--inverse .btn--small .section-more-link }

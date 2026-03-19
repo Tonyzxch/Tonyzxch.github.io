@@ -52,7 +52,7 @@ To improve attack efficiency and transferability, I further designed a reinforce
 
 This project explores controllable image generation methods and how synthetic data can improve animal recognition performance. I participated in the design of generation pipelines under scenario constraints and helped evaluate their usefulness for downstream recognition tasks.
 
-[More Research](/research/){: .btn .btn--inverse .btn--small }
+[More Research](/research/){: .btn .btn--inverse .btn--small .section-more-link }
 
 <span class='anchor' id='projects'></span>
 
@@ -82,7 +82,7 @@ A Chinese text sentiment classification project exploring machine learning metho
 
 **Link:** [GitHub Repository](https://github.com/Tonyzxch/nlp_sentiment_analysis)
 
-[More Projects](/projects/){: .btn .btn--inverse .btn--small }
+[More Projects](/projects/){: .btn .btn--inverse .btn--small .section-more-link }
 
 <span class='anchor' id='study-notes'></span>
 
@@ -104,7 +104,7 @@ A learning-note repository based on Google's AI agents intensive course. It summ
 
 **Link:** [GitHub Repository](https://github.com/Tonyzxch/5-Day-AI-Agents-Intensive-Course-with-Google)
 
-[More Study Notes](/study-notes/){: .btn .btn--inverse .btn--small }
+[More Study Notes](/study-notes/){: .btn .btn--inverse .btn--small .section-more-link }
 
 <span class='anchor' id='honors-and-awards'></span>
 
