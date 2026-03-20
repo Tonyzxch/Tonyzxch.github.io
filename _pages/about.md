@@ -80,6 +80,14 @@ A Chinese text sentiment classification project exploring machine learning metho
 
 # 📚 Study Notes
 
+## D2L v2 Notes
+
+**Topic:** Deep Learning, Computer Vision, Sequence Models, Transformer, BERT
+
+A systematic self-study note repository based on Dive into Deep Learning v2, covering a broad range of topics from basic neural networks and convolutional models to object detection, sequence modeling, attention mechanisms, Transformer, and BERT. The repository is organized as a chapter-by-chapter notebook collection and reflects my effort to build a more complete understanding of modern deep learning methods.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/d2l-v2-notes)
+
 ## LLM Learning Plan
 
 **Topic:** Large Language Models, Model Architecture, Training, Alignment, Inference Optimization, Agents
@@ -87,14 +95,6 @@ A Chinese text sentiment classification project exploring machine learning metho
 A comprehensive self-study note repository for building a full-stack understanding of large language models, from mathematical foundations and core architectures to fine-tuning, RLHF, optimization, RAG, agents, and deployment. The project combines theory-oriented reading with hands-on notebook implementations.
 
 **Link:** [GitHub Repository](https://github.com/Tonyzxch/LLM-Learning-Plan)
-
-## Document AI From OCR to Agentic Doc Extraction
-
-**Topic:** OCR, Document AI, Agentic Document Extraction, RAG, AWS Pipelines
-
-A self-study note repository based on the DeepLearning.AI course on document intelligence, covering the path from OCR and document parsing to agentic document understanding, RAG over structured documents, and cloud-based automation pipelines. The project combines notebook-based experiments with practical pipeline design.
-
-**Link:** [GitHub Repository](https://github.com/Tonyzxch/Document-AI-From-OCR-to-Agentic-Doc-Extraction)
 
 [More Study Notes](/study-notes/){: .btn .btn--inverse .btn--small .section-more-link }
 

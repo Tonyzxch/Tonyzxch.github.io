@@ -11,6 +11,30 @@ nav_active: study-notes
 
 This page gathers my self-study notes on large models, agents, and related AI systems topics. The homepage keeps a compact showcase, while this page is meant to expand as I continue reading and learning.
 
+## PyTorch Deep Learning Quickstart Notes
+
+**Topic:** PyTorch, Deep Learning Fundamentals, CNNs, Model Training
+
+A self-study note repository based on Xiaotudui's PyTorch introductory course, organized as a notebook-based learning path from environment setup and data processing to convolutional networks, loss functions, optimizers, and complete training workflows. The repository reflects my hands-on practice in building a practical foundation for deep learning with PyTorch.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/pytorch-deep-learning-quickstart-notes)
+
+## D2L v2 Notes
+
+**Topic:** Deep Learning, Computer Vision, Sequence Models, Transformer, BERT
+
+A systematic self-study note repository based on Dive into Deep Learning v2, covering a broad range of topics from basic neural networks and convolutional models to object detection, sequence modeling, attention mechanisms, Transformer, and BERT. The repository is organized as a chapter-by-chapter notebook collection and reflects my effort to build a more complete understanding of modern deep learning methods.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/d2l-v2-notes)
+
+## Andrew Ng Deep Learning Specialization Notes
+
+**Topic:** Neural Networks, CNNs, Sequence Models, Optimization, Deep Learning Strategy
+
+A self-study note repository based on Andrew Ng's Deep Learning Specialization, covering core topics such as neural network foundations, training improvement techniques, machine learning strategy, convolutional networks, and sequence models. The repository combines lecture notes, quiz records, and programming assignments, reflecting my effort to systematically revisit the classical deep learning curriculum.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/andrew-ng-deep-learning-specialization-notes)
+
 ## LLM Learning Plan
 
 **Topic:** Large Language Models, Model Architecture, Training, Alignment, Inference Optimization, Agents
