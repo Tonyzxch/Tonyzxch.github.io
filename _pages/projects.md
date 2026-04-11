@@ -35,6 +35,14 @@ An image safety classification project for identifying risk levels and content t
 
 **Link:** [GitHub Repository](https://github.com/Tonyzxch/chat-image-safety-classifier)
 
+## TraceOJ
+
+**Tech Stack:** Next.js, TypeScript, Tailwind CSS, Prisma, SQLite
+
+A local-first OJ knowledge base for organizing coding solutions, notes, problem relations, and review plans. The project supports multi-platform import, filename-driven metadata parsing, relation modeling, review queues, and dashboard snapshots.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/TraceOJ)
+
 ## FlightRadar Data Scraper
 
 **Tech Stack:** Python, Web Scraping, Data Collection
@@ -50,5 +58,13 @@ A web scraping project for collecting and processing flight-related data from Fl
 A warehouse management system for inventory tracking, stock-in/stock-out operations, and core business workflow management. This project demonstrates my ability to design and implement a complete backend-oriented system.
 
 **Link:** [GitHub Repository](https://github.com/Tonyzxch/jxc-management-system)
+
+## Book Shelving Management System
+
+**Tech Stack:** C++, Qt Widgets, MySQL
+
+A role-based book shelving management system built as my first internship training project. It includes login/registration, admin and user workspaces, book info management, shelving task assignment, and shelving record tracking with status synchronization.
+
+**Link:** [GitHub Repository](https://github.com/Tonyzxch/Book-System)
 
 [Back to Homepage](/#projects){: .btn .btn--inverse .btn--small .section-more-link }
