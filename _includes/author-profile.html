@@ -28,6 +28,15 @@
       {% if author.cv %}
         <li><a href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV</a></li>
       {% endif %}
+      {% if author.cv_en %}
+        <li><a href="{{ author.cv_en }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV (EN)</a></li>
+      {% endif %}
+      {% if author.personal_statement_zh %}
+        <li><a href="{{ author.personal_statement_zh }}"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> Personal Statement (ZH)</a></li>
+      {% endif %}
+      {% if author.personal_statement_en %}
+        <li><a href="{{ author.personal_statement_en }}"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> Personal Statement (EN)</a></li>
+      {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
@@ -136,6 +145,15 @@
       {% endif %}
       {% if author.cv %}
         <a href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.cv_en %}
+        <a href="{{ author.cv_en }}" title="CV (EN)"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.personal_statement_zh %}
+        <a href="{{ author.personal_statement_zh }}" title="Personal Statement (ZH)"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.personal_statement_en %}
+        <a href="{{ author.personal_statement_en }}" title="Personal Statement (EN)"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
