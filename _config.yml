@@ -24,10 +24,10 @@ author:
   email            : "scuzxc660223@gmail.com"
   wechat           : "Zxc-660223"
   wechat_qr        : "/wechat.jpg"
-  cv               : "/files/cv.pdf"
-  cv_en            : "/files/cv_en.html"
   personal_statement_zh : "/files/personal_statement_zh.pdf"
   personal_statement_en : "/files/personal_statement_en.pdf"
+  cv               : "/files/cv_zh.pdf"
+  cv_en            : "/files/cv_en.pdf"
   researchgate     :
   uri              :
   bitbucket        :

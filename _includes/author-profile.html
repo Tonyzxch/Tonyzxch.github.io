@@ -26,7 +26,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       {% if author.cv %}
-        <li><a href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV</a></li>
+        <li><a href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV (ZH)</a></li>
       {% endif %}
       {% if author.cv_en %}
         <li><a href="{{ author.cv_en }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV (EN)</a></li>
@@ -144,7 +144,7 @@
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.cv %}
-        <a href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
+        <a href="{{ author.cv }}" title="CV (ZH)"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.cv_en %}
         <a href="{{ author.cv_en }}" title="CV (EN)"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
